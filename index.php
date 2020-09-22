@@ -18,7 +18,7 @@
     }
 
 
-    if ( empty($_POST['name'])  ) {
+    if ( empty($_POST['name'])) {
         $name_error = 'Name is required';
     }
     if ( empty($_POST['account'])  ) {
